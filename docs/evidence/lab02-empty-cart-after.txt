@@ -1,0 +1,6 @@
+UTC start: 2026-11-07T10:52:24.087800+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: python3 -c 'from aims.cart import Cart; Cart().print_cart()'
+Exit code: 0
+
+The cart is empty

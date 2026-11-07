@@ -1,0 +1,21 @@
+UTC start: 2026-11-07T11:01:12.636206+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims-dev2
+Command: git diff -- aims/cart.py
+Exit code: 0
+
+diff --cc aims/cart.py
+index ba3c224,e758b6a..0000000
+--- a/aims/cart.py
++++ b/aims/cart.py
+@@@ -12,7 -12,7 +12,11 @@@ class Cart
+              print("The cart is almost full")
+              return False
+          self.items.append(dvd)
+++<<<<<<< HEAD
+ +        print(f"The disc '{dvd.title}' has been added")
+++=======
++         print("Đã thêm đĩa vào giỏ hàng")
+++>>>>>>> origin/master
+          return True
+  
+      def remove_dvd(self, dvd):

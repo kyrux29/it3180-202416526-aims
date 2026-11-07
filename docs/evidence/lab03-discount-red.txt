@@ -1,0 +1,65 @@
+UTC start: 2026-11-07T10:59:44.520908+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims-dev2
+Command: python3 -m unittest discover -s tests -v
+Exit code: 1
+
+test_add_dvd_until_full (test_cart.TestCart.test_add_dvd_until_full) ... ok
+test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) ... 
+  test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) (percent=-1) ... FAIL
+  test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) (percent=150) ... FAIL
+test_discounted_total (test_cart.TestCart.test_discounted_total) ... FAIL
+test_search_by_title (test_search.TestSearch.test_search_by_title) ... ok
+
+======================================================================
+FAIL: test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) (percent=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/kyrux/Documents/thuchanh/aims-dev2/tests/test_cart.py", line 25, in test_discount_percent_out_of_range
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) (percent=150)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/kyrux/Documents/thuchanh/aims-dev2/tests/test_cart.py", line 25, in test_discount_percent_out_of_range
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_discounted_total (test_cart.TestCart.test_discounted_total)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/kyrux/Documents/thuchanh/aims-dev2/tests/test_cart.py", line 19, in test_discounted_total
+    self.assertEqual(cart.total_cost_with_discount(20), 80)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 20.0 != 80
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=3)
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The disc has been added
+The cart is almost full
+The disc has been added
