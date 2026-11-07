@@ -40,10 +40,19 @@ only after the backport and verification. If it had already been
 published, the patch would need a new version such as 1.1.1 rather than
 moving the old tag.
 
-**Verification to perform before finishing the lab**
+**Verification results**
 
-The original 1.0.0 must reproduce the case-sensitive search bug. The
-patched 1.0.1, 1.1.0 and master must each find one item for `lion`, and
-their test suites must pass. The 1.0.0-to-1.0.1 diff should contain only
-search.py, test_search.py, the version file and CHANGELOG. Two destination
-commits should record the source fix through cherry-pick -x.
+The original 1.0.0 reproduces the case-sensitive search bug. Patched
+1.0.1, 1.1.0 and master each find one item for `lion`; their suites pass
+with 5, 8 and 8 tests respectively. The 1.0.0-to-1.0.1 diff contains only
+search.py, test_search.py, the version file and CHANGELOG.
+
+Source fix `67f59dcd9e668d5384694a7182fc3a48ac312575` is recorded by
+two cherry-pick commits: `41d1df4` on master and `68bf454` on
+release/lab05. PRs #19, #20 and #21 update the affected lines; Issue #18
+is closed. The version bump to 1.0.1 stays on release/lab04.
+
+GitHub Actions passes on the correct code. The deliberately broken
+total_cost in PR #23 makes the test job fail and blocks merging; that
+PR is closed without merging. See [the submission index](submission.md)
+for links, raw evidence and cache isolation during tag audits.

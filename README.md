@@ -1,5 +1,7 @@
 # AIMS-mini
 
+[Lab submission and evidence index](docs/submission.md)
+
 Bài thực hành quản lý cấu hình phần mềm với Git và GitHub, học phần IT3180.
 
 - Sinh viên: Vũ Trọng Quốc Khánh

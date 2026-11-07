@@ -1,0 +1,6 @@
+UTC start: 2026-11-07T11:19:15.007468+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: timeout 30s gh api graphql -f 'query={repository(owner:"kyrux29",name:"it3180-202416526-aims"){defaultBranchRef{name} branchProtectionRules(first:10){nodes{pattern requiresApprovingReviews requiredApprovingReviewCount isAdminEnforced allowsForcePushes allowsDeletions}}}}'
+Exit code: 0
+
+{"data":{"repository":{"defaultBranchRef":{"name":"master"},"branchProtectionRules":{"nodes":[{"pattern":"master","requiresApprovingReviews":true,"requiredApprovingReviewCount":0,"isAdminEnforced":true,"allowsForcePushes":false,"allowsDeletions":false},{"pattern":"release/*","requiresApprovingReviews":true,"requiredApprovingReviewCount":0,"isAdminEnforced":true,"allowsForcePushes":false,"allowsDeletions":false}]}}}}

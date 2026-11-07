@@ -1,0 +1,36 @@
+UTC start: 2026-11-07T11:10:39.914119+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims-v1.0.0
+Command: python3 -m unittest discover -s tests -v
+Exit code: 0
+
+test_add_dvd_until_full (test_cart.TestCart.test_add_dvd_until_full) ... ok
+test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) ... ok
+test_discounted_total (test_cart.TestCart.test_discounted_total) ... ok
+test_search_by_title (test_search.TestSearch.test_search_by_title) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+The cart is almost full
+Đã thêm đĩa vào giỏ hàng

@@ -1,0 +1,53 @@
+UTC start: 2026-11-07T11:11:51.397318+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: python3 -m unittest discover -s tests -v
+Exit code: 1
+
+test_add_dvd_until_full (test_cart.TestCart.test_add_dvd_until_full) ... ok
+test_discount_percent_out_of_range (test_cart.TestCart.test_discount_percent_out_of_range) ... ok
+test_discounted_total (test_cart.TestCart.test_discounted_total) ... ok
+test_search_by_title (test_search.TestSearch.test_search_by_title) ... ok
+test_search_case_insensitive (test_search.TestSearch.test_search_case_insensitive) ... FAIL
+
+======================================================================
+FAIL: test_search_case_insensitive (test_search.TestSearch.test_search_case_insensitive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/kyrux/Documents/thuchanh/aims/tests/test_search.py", line 15, in test_search_case_insensitive
+    self.assertEqual(search_by_title(items, "lion"), items)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != [<aims.dvd.DigitalVideoDisc object at 0x7fa076e2ae40>]
+
+Second list contains 1 additional elements.
+First extra element 0:
+<aims.dvd.DigitalVideoDisc object at 0x7fa076e2ae40>
+
+- []
++ [<aims.dvd.DigitalVideoDisc object at 0x7fa076e2ae40>]
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+The cart is almost full
+Đã thêm đĩa vào giỏ hàng

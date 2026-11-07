@@ -1,0 +1,6 @@
+UTC start: 2026-11-07T11:17:07.101341+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: timeout 30s gh api repos/kyrux29/it3180-202416526-aims/branches/release%2Flab05/protection --jq '{approvals:.required_pull_request_reviews.required_approving_review_count,enforce_admins:.enforce_admins.enabled,allow_force_pushes:.allow_force_pushes.enabled,allow_deletions:.allow_deletions.enabled}'
+Exit code: 0
+
+{"allow_deletions":false,"allow_force_pushes":false,"approvals":0,"enforce_admins":true}
