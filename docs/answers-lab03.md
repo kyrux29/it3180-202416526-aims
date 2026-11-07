@@ -51,5 +51,3 @@ is removed from that message. The change goes through a new PR.
 These operations were limited to an unpublished practice branch. Reflog
 can help recover commits; it is not a backup for arbitrary uncommitted
 changes.
-
-Raw command outputs are saved under [evidence](evidence/README.md).
