@@ -1,0 +1,15 @@
+UTC start: 2026-11-07T11:01:35.668291+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: git rebase topic/rebase-target
+Exit code: 1
+
+Rebasing (1/1)
+Auto-merging rebase-demo.txt
+CONFLICT (content): Merge conflict in rebase-demo.txt
+error: could not apply 39fe7f3... docs: edit the local practice branch
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Could not apply 39fe7f3... docs: edit the local practice branch

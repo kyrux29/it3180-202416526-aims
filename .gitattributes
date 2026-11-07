@@ -1,1 +1,4 @@
 * text=auto
+
+# Preserve whitespace in captured terminal output.
+docs/evidence/*.txt -whitespace

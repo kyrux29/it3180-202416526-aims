@@ -1,0 +1,13 @@
+UTC start: 2026-11-07T11:01:36.506656+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: git reflog -8
+Exit code: 0
+
+7a1367c HEAD@{0}: reset: moving to HEAD~1
+da92fd0 HEAD@{1}: commit: docs: keep a commit for reflog recovery
+7a1367c HEAD@{2}: reset: moving to HEAD~1
+304ee8d HEAD@{3}: commit: docs: recreate local undo example
+7a1367c HEAD@{4}: reset: moving to HEAD~1
+7e0bc34 HEAD@{5}: commit: docs: create local undo example
+7a1367c HEAD@{6}: checkout: moving from master to topic/undo-practice
+7a1367c HEAD@{7}: checkout: moving from topic/rebase-practice to master
