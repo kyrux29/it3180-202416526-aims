@@ -1,0 +1,7 @@
+UTC start: 2026-11-07T11:17:07.815866+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: timeout 30s gh api 'repos/kyrux29/it3180-202416526-aims/issues?state=all&per_page=100' --jq '.[] | select(.pull_request==null) | {number,title,state,closed_at}'
+Exit code: 0
+
+{"closed_at":"2026-11-07T11:12:33Z","number":18,"state":"closed","title":"Title search misses matches with different case"}
+{"closed_at":"2026-11-07T10:53:56Z","number":7,"state":"closed","title":"Cart accepts the 21st DVD although the limit is 20"}

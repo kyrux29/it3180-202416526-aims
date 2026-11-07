@@ -1,0 +1,10 @@
+UTC start: 2026-11-07T11:13:28.451247+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: python3 -c 'from aims import __version__; from aims.cart import Cart; from aims.dvd import DigitalVideoDisc as D; from aims.search import search_by_title, search_by_category; result=search_by_title([D('"'"'The Lion King'"'"')], '"'"'lion'"'"'); assert __version__=='"'"'1.1.0'"'"' and len(result)==1 and hasattr(Cart, '"'"'sort_by_cost'"'"'); print(__version__, '"'"'matches:'"'"', len(result), '"'"'sorting:'"'"', hasattr(Cart, '"'"'sort_by_cost'"'"'))'
+Exit code: 1
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from aims import __version__; from aims.cart import Cart; from aims.dvd import DigitalVideoDisc as D; from aims.search import search_by_title, search_by_category; result=search_by_title([D('The Lion King')], 'lion'); assert __version__=='1.1.0' and len(result)==1 and hasattr(Cart, 'sort_by_cost'); print(__version__, 'matches:', len(result), 'sorting:', hasattr(Cart, 'sort_by_cost'))
+                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

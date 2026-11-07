@@ -1,0 +1,8 @@
+UTC start: 2026-11-07T11:17:09.650916+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: timeout 30s gh api repos/kyrux29/it3180-202416526-aims/releases --jq '.[] | {tag_name,target_commitish,draft,prerelease,html_url,assets:[.assets[].name]}'
+Exit code: 0
+
+{"assets":["aims-1.1.0.zip"],"draft":false,"html_url":"https://github.com/kyrux29/it3180-202416526-aims/releases/tag/v1.1.0","prerelease":false,"tag_name":"v1.1.0","target_commitish":"release/lab05"}
+{"assets":["aims-1.0.1.zip"],"draft":false,"html_url":"https://github.com/kyrux29/it3180-202416526-aims/releases/tag/v1.0.1","prerelease":false,"tag_name":"v1.0.1","target_commitish":"release/lab04"}
+{"assets":["aims-1.0.0.zip"],"draft":false,"html_url":"https://github.com/kyrux29/it3180-202416526-aims/releases/tag/v1.0.0","prerelease":false,"tag_name":"v1.0.0","target_commitish":"release/lab04"}

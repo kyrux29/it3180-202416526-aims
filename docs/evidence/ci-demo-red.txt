@@ -1,0 +1,6 @@
+UTC start: 2026-11-07T11:16:32.774465+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: timeout 30s gh run view 42367455946 --json conclusion,status,url,jobs
+Exit code: 0
+
+{"conclusion":"failure","jobs":[{"completedAt":"2026-11-07T11:16:15Z","conclusion":"failure","databaseId":128388418938,"name":"test","startedAt":"2026-11-07T11:16:11Z","status":"completed","steps":[{"conclusion":"success","name":"Set up job","number":1,"status":"completed"},{"conclusion":"success","name":"Run actions/checkout@v4","number":2,"status":"completed"},{"conclusion":"success","name":"Run actions/setup-python@v5","number":3,"status":"completed"},{"conclusion":"failure","name":"Run python -m unittest discover -s tests -v","number":4,"status":"completed"},{"conclusion":"skipped","name":"Post Run actions/setup-python@v5","number":7,"status":"completed"},{"conclusion":"success","name":"Post Run actions/checkout@v4","number":8,"status":"completed"},{"conclusion":"success","name":"Complete job","number":9,"status":"completed"}],"url":"https://github.com/kyrux29/it3180-202416526-aims/actions/runs/42367455946/job/128388418938"}],"status":"completed","url":"https://github.com/kyrux29/it3180-202416526-aims/actions/runs/42367455946"}

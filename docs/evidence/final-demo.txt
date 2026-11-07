@@ -1,0 +1,13 @@
+UTC start: 2026-11-07T11:17:10.483454+00:00
+Working directory: /home/kyrux/Documents/thuchanh/aims
+Command: python3 main.py
+Exit code: 0
+
+AIMS-mini v1.1.0
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+Đã thêm đĩa vào giỏ hàng
+1. DVD - The Lion King - Animation - Roger Allers - 87: 19.95 $
+2. DVD - Star Wars - Science Fiction - George Lucas - 87: 24.95 $
+3. DVD - Aladdin - Animation -  - 0: 18.99 $
+Total cost: 63.89 $
