@@ -54,5 +54,4 @@ is closed. The version bump to 1.0.1 stays on release/lab04.
 
 GitHub Actions passes on the correct code. The deliberately broken
 total_cost in PR #23 makes the test job fail and blocks merging; that
-PR is closed without merging. See [the submission index](submission.md)
-for links, raw evidence and cache isolation during tag audits.
+PR is closed without merging.

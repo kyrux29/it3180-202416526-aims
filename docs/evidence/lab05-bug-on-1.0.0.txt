@@ -1,6 +1,0 @@
-UTC start: 2026-11-07T11:11:48.174043+00:00
-Working directory: /home/kyrux/Documents/thuchanh/aims-v1.0.0
-Command: python3 -c 'from aims.dvd import DigitalVideoDisc as D; from aims.search import search_by_title; print([d.title for d in search_by_title([D('"'"'The Lion King'"'"')], '"'"'lion'"'"')])'
-Exit code: 0
-
-[]
