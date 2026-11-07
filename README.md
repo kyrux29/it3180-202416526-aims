@@ -15,3 +15,6 @@ python3 main.py
 ```
 
 Tổng tiền của dữ liệu mẫu: `63.89 $`.
+
+Các tệp cache Python (`__pycache__/`, `*.pyc`) được loại khỏi Git bằng
+`.gitignore`; không cần cài thêm thư viện để chạy chương trình mẫu.
