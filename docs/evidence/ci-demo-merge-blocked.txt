@@ -1,8 +1,0 @@
-UTC start: 2026-11-07T11:16:38.801401+00:00
-Working directory: /home/kyrux/Documents/thuchanh/aims
-Command: timeout 30s gh pr merge 23 --merge
-Exit code: 1
-
-X Pull request kyrux29/it3180-202416526-aims#23 is not mergeable: the base branch policy prohibits the merge.
-To have the pull request merged after all the requirements have been met, add the `--auto` flag.
-To use administrator privileges to immediately merge the pull request, add the `--admin` flag.

@@ -1,7 +1,0 @@
-UTC start: 2026-11-07T11:12:49.832371+00:00
-Working directory: /home/kyrux/Documents/thuchanh/aims
-Command: git cherry -v origin/master origin/release/lab04
-Exit code: 0
-
-- 67f59dcd9e668d5384694a7182fc3a48ac312575 fix: make search_by_title case-insensitive
-+ a6f679820016540d62ff9e8b6e3adf60f0e6e806 chore: bump version to 1.0.1
